@@ -7,7 +7,7 @@
 # server 'example.com', user: 'deploy', roles: %w{app web}, other_property: :other_value
 # server 'db.example.com', user: 'deploy', roles: %w{db}
 
-server '', user: 'ec2-user', roles: %w{app}
+server '52.24.77.156', user: 'ec2-user', roles: %w{app}
 set :ssh_options, keys: '~/.ssh/vagrant_aws_key.pem'
 
 # role-based syntax
